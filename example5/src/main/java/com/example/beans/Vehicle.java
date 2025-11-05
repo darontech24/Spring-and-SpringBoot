@@ -23,7 +23,7 @@ public class Vehicle {
 
     @PreDestroy
     public void destroy(){
-        System.out.println("Line Before destroying the Vehicle Bean");
+        System.out.println("Using @PreDestroy annotation to destroy the vehicle");
     }
 
     public void printHello(){
