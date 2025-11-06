@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Example2 {
+public class Example5 {
     public static void main(String[] args) {
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
