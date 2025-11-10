@@ -11,7 +11,7 @@ public class Vehicle {
     @Autowired
     public Vehicle(VehicleService vehServ){
         this.vehServ = vehServ;
-        System.out.println("Vehicle has been initialized!");
+        System.out.println("Vehicle has been initialized and autowired to VehicleServices!");
     }
     private String name = "Toyota";
 

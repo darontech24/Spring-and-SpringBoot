@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class Bose implements Speakers{
     @Override
     public void makeSound() {
-        System.out.println("Bose playing sound");
+        System.out.println("Bose(Primary Speakers Bean) playing sound");
     }
 }

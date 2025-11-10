@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 @Primary
 public class BridgeStone implements Tyres{
     public void rotate(){
-        System.out.println("Bridgestone tyre is rotating!");
+        System.out.println("Bridgestone(Primary Tyre Bean) tyre is rotating!");
     }
 }

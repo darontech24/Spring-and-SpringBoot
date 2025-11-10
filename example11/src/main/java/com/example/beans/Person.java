@@ -10,7 +10,7 @@ public class Person {
 
     @Autowired
     public Person(Vehicle vehicle1){
-        System.out.println("Person class has been initialized");
+        System.out.println("Person class has been initialized and autowired to Vehicle class");
         this.vehicle = vehicle1;
     }
 
